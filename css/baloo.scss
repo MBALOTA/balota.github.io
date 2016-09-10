@@ -85,6 +85,13 @@ a {
   border-bottom: 2px solid $primary;
 }
 
+@media (max-width: 768px ) {
+  .container-main {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}
+
 .container-main {
   margin-top: 90px;
   border: 2px solid $primary;
