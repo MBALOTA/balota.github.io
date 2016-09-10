@@ -1,0 +1,180 @@
+/*
+$primary: #00A8E8;
+$secondary: #007EA7;
+$text: #003459;
+$background: #FFFFFF;
+*/
+
+$primary: #222;
+$secondary: #000;
+$text: #333;
+$background: #FFF;
+
+::selection {
+  color: $background;
+  background: $secondary;
+}
+::-moz-selection {
+  color: $background;
+  background: $secondary;
+}
+
+html,body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Lato', sans-serif;
+}
+
+strong {
+  font-weight: bold;
+  color: $secondary;
+}
+
+a {
+  color: $primary;
+  &:visited {
+    color: $primary;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $secondary;
+    text-decoration: none;
+  }
+  &:active {
+    color: $secondary;
+    text-decoration: none;
+  }
+}
+
+.social-media-buttons {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.header {
+  text-align: center;
+  color: $secondary;
+  img {
+    width: 180px;
+    margin-top: -90px;
+    border: 2px solid $primary;
+    border-radius: 4px;
+    padding: 4px;
+    background: $background;
+  }
+  h1{
+    font-weight: bold;
+  }
+  h1 small{
+    display: block;
+    color: $secondary;
+    font-weight: bold !important;
+    margin: 0;
+  }
+  text-transform: uppercase;
+  border-bottom: 2px solid $primary;
+}
+
+.container-main {
+  margin-top: 90px;
+  border: 2px solid $primary;
+  border-radius: 4px;
+  background-color: $background;
+}
+
+.section {
+  color: $text;
+  padding: 5px;
+
+  h1,h2,h3,h4 {
+    text-transform: uppercase;
+    color: $primary;
+    margin: 5px 0;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .education-list dt{
+    color: $text;
+    border-bottom: 2px solid $text;
+    text-overflow: clip;
+    margin-bottom: 5px;
+  }
+
+  .education-list dd{
+    margin-bottom: 2px;
+  }
+}
+
+.progress {
+  height: auto;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+  .progress-bar {
+    padding: 2px;
+    font-size: 1em;
+    background: $primary;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.span {
+  .section {
+    padding: 10px 20px;
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+.project {
+  border: 2px solid $primary;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+  h3 {
+    text-align: center;
+    margin-top: 0;
+    border-bottom: 2px solid $primary;
+    padding-bottom: 5px;
+  }
+  p {
+    margin: 0;
+    padding: 0 5px;
+    text-align: center;
+  }
+}
+
+.footer {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4px;
+  p {
+    margin: 0;
+  }
+}
+
+#aboutMeText {
+  text-align: left;
+  line-height: 2em;
+  word-spacing: 0.2em;
+}
+
+.custom-inverted {
+  background: $primary;
+  color: $background;
+}
