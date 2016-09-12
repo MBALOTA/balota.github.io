@@ -88,8 +88,8 @@ a {
 @media (max-width: 768px ) {
   .container-main {
     border-radius: 0 !important;
-    border-left: none;
-    border-right: none;
+    border-left: none !important;
+    border-right: none !important;
   }
 }
 
