@@ -35,9 +35,10 @@ strong {
 
 a {
   color: $primary;
+  text-decoration: underline;
   &:visited {
     color: $primary;
-    text-decoration: none;
+    text-decoration: underline;
   }
   &:hover {
     color: $secondary;
